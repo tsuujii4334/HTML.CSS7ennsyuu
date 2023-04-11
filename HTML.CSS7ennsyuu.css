@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
 }
 
 .main-visual{
@@ -20,50 +19,29 @@ background-position: bottom; /* 背景画像を下方向に配置 */
 
 main{
   width: 840px;
-  display:  flex; /*Flexboxの利用*/
-  justify-content: center; /*要素の横並び・中央寄せ*/
-  margin: 0 auto; /*要素の中央揃え*/
-  padding: 50px 0; /*上下に70px、左右に0pxの内側余白*/
-}
-.blog{
-  width: 840px;
-
+  margin: 50px auto;
 }
 
-.blog-item{
-
-  padding-bottom: 30px;
+.service1{
   margin-bottom: 30px;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
 
-.blog-image{
-  height: 100%;
+.service2{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
 
-
-.blog-date{
-  font-size: 12px;
-  display: inline-block;
-}
-.category{
-  display: inline-block;
-  color: black;
-  font-size: 18px;
-  border-bottom: 1px solid black;
-}
-.sidebar{
-  width: 230px;
+.service3{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
 
-footer {
-  width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
-  text-align: center;
-  line-height: 120px;
-  background-color: #848282;
-}
-
-.footer-text{
-  color: #fff;
+.service4{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
