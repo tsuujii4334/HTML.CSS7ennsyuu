@@ -14,21 +14,8 @@ background-size: cover; /*縦横比を維持したまま背景領域を埋め尽
 background-position: bottom; /* 背景画像を下方向に配置 */
 }
 
-.main-visual-content{
-  width: 200px; /*横幅40%*/
-  height: 20px;
-  text-align: left; /*文字を左ぞろえにする*/
-  padding: 20px 0 0 20px; /*上側と左側の内側余白で垂直方向の位置を調整*/
-}
-
-.main-visual-text{
-  color: #72777b; /*文字色を鉛色に変更*/
-  font-size: 30px;
-}
-
-.main-visual-name{
-  margin-top: 30px; /*上側の外側の余白*/
-  color: #fff; /*文字色を白に変更*/
+.headline{
+  padding: 20px;
 }
 
 main{
